@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+.head{height:70px;}
+.head span{width:160px;}
+.head span{width:160px;height:70px;background:url(../images/logo02.png) no-repeat center center;}
+.head h4{height:70px;line-height:70px;font-size:40px;font-weight:normal;}
+.layer_return{width:25px;height:50px;margin:-58px 0 0 10px;background:url(../images/icon_return02.png) no-repeat;}
+.layer_return a{width:25px;height:50px;}
+.layer_out{width:63px;height:50px;margin:-58px 0 0 0;background:url(../images/icon_out02.png) no-repeat;}
+.layer_out a{width:63px;height:50px;}
+
+.layer_videoinfo{height:50px;line-height:50px;margin-top:-55px;font-size:28px;}
+
+h1{height:60px;line-height:60px;margin-top:20px;font-size:30px;background:url(../images/icon_video02.png) no-repeat 20px center #378ece;padding-left:80px;}
+
+.imgcase .layer_imgcase{height:40px;line-height:40px;margin-top:-45px;font-size:20px;}
+ul li h3{height:40px;line-height:40px;font-size:20px;}
+ul li .toolsbar{height:40px;line-height:40px;font-size:20px}
+ul li .toolsbar span{height:40px;line-height:40px;font-size:20px;}
+ul li .toolsbar span.onfocus{background:url(../images/icon_focus02.png) no-repeat 10px center;padding-left:50px;}
+ul li .toolsbar span.loveit{ background:url(../images/icon_loveit02.png) no-repeat 10px center;padding:0 10px 0 50px;}
+
+h2{margin-top:20px;height:60px;background:#378ece;}
+h2 span.title{height:60px;line-height:60px;font-size:30px;background:url(../images/icon_mp02.png) no-repeat 20px center;padding-left:80px;}
+h2 span.more{height:60px;width:60px;background:url(../images/icon_more02.png) no-repeat center center;}
+h2 span.more a{width:60px;height:60px;display:block;}
+
+.layer_nav{height:60px;line-height:60px;font-size:30px;}
+ul{padding-bottom:60px;float:left;}
+
+.userinfo{height:85px;}
+.userinfo span.user img{width:65px;margin:10px 0 0 10px;}
+.userinfo span.user h4{padding-left:15px;}
+.userinfo span.user h4 div.username{height:50px;line-height:50px;font-size:30px;}
+.userinfo span.user h4 div.level{height:50px;}
+.userinfo span.user h4 div.level img{width:22px;margin-top:15px;}
+.userinfo span.user h5{padding-left:15px;color:#999;height:35px;line-height:25px;font-size:18px;}
+
+.userinfo span.focus img{width:80px;margin:25px 15px 0 0;}
+.userinfo span.time{line-height:80px;padding-right:20px;font-size:20px;}
+
+.userlist{height:85px;}
+
+.carouselcase{width:90%;height:90px;}
+.carouselcase img{width:55px;margin:15px 0 0 0;float:left;}
+.arrow-right{width:40px;height:55px;margin:20px 0 0 0;position:absolute;background:url(../images/arrows02.png) no-repeat left bottom;z-index:10000;}
+.arrow-left,.arrow-right{display:none;}
+.swiper-container-carousel{width:90%;height:90px;}
+
+.talklist{height:200px;}
+.spiclecase{width:90%;height:200px;}
+.spicle-arrow-right{width:40px;height:55px;margin:70px 0 0 0;position:absolute;background:url(../images/arrows02.png) no-repeat left bottom;z-index:10000;}
+.spicle-arrow-left,.spicle-arrow-right{display:none;}
+.swiper-container-spicle{width:90%;height:200px;}
+.swiper-slide-spicle ol{width:100%;font-size:20px;}
+.swiper-slide-spicle ol li{height:35px;line-height:35px;padding-left:30px;}
+.swiper-slide-spicle ol li.date{background:url(../images/icon_date02.png) no-repeat left center;}
+.swiper-slide-spicle ol li.pl{background:url(../images/icon_pl02.png) no-repeat left center;}
+.swiper-slide-spicle ol li.sd{background:url(../images/icon_sd02.png) no-repeat left center;}
+.swiper-slide-spicle ol li.fr{background:url(../images/icon_fr02.png) no-repeat left center;}
+.swiper-slide-spicle p{font-size:20px; line-height:35px;padding-top:20px;}
+.swiper-slide-spicle img{width:100%;height:90%;margin-top:10px;}
+
+.talkinfo_bar{height:35px;padding-top:12px;}
+.talkinfo_bar span{width:150px;height:30px;display:block;}
+.talkinfo_bar span.putdown{background:url(../images/bg_ti02_02.png);}
+.talkinfo_bar span.putup{background:url(../images/bg_ti02_01.png);}
+.talkinfo p{line-height:30px;font-size:20px;padding:10px;}
+
+.messagelist{padding-bottom:120px;}
+.messagetext p{line-height:30px;font-size:20px;padding:10px;}
+
+.layer_action{height:60px;bottom:60px;text-align:center;}
+.layer_action img{width:120px;margin:10px 20px 0 0;}
+
+.textinput{height:100px;}
+
+.textinput span.textcase textarea{width:98%;height:60px;margin:10px 0 0 10px;border:1px solid #ccc;padding:10px;font-size:20px;}
+.textinput span.textbutton input{border:none;width:60px;height:60px;background:url(../images/button_post02.png);margin:20px 0 0 30px;cursor:pointer;}

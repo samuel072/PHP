@@ -1,0 +1,75 @@
+﻿.body_div_talk { background:#fff; width:100%; }
+.content_div_talk { background:#fff; width:100%; padding-top:15px; }
+.con_header_div_talk { width: 34%; margin:0 auto; overflow: hidden; }
+.con_header_img_talk { border-radius:100%; width:100%; }
+.con_name_talk { color:#375F93; font-weight:700; font-size:20px; text-align: center; margin-top:15px; }
+
+/* 演讲详情页中的嘉宾简介 */
+.con_summary_talk {
+  color:#375F93;
+  width:auto;
+  margin:10px 0;
+  padding:0 20px;
+  line-height:1.6;
+  letter-spacing:1px;
+  font-size:16px;
+}
+
+.con_img_talk { width:100%; }
+.con_click_talk { width:28%; position:relative; z-index:1000; margin-left:40%; margin-top:-160px; }
+
+.con_title_talk {
+  position:relative;
+  z-index:1000;
+  background-color:#000;
+  margin-top:34px;
+  margin-left:0px;
+  width:100%;
+  height:46px;
+  opacity:0.6;
+}
+
+.con_title_summ_talk{line-height: 46px;letter-spacing: 2px;font-size:18px;text-align: center;color: #fff;}
+
+/* 演讲讲详情页中的文字 */
+.con_content_talk {
+  font-size:16px;
+  width:auto;
+  margin:10px 0px;
+  padding:0 15px;
+  line-height:1.6;
+  letter-spacing:1px;
+  color:#000;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.line_talk {
+  width:100%;
+  margin:0px auto;
+  padding:10px 0;
+  background:#fff;
+}
+
+/**********详情页********/
+.content_div_talk .con_more_talk {
+  width:92%;
+  margin:10px auto;
+  border:2px solid #356091;
+  border-radius:4px;
+  color:#356091;
+  display:block;
+  text-align:center;
+  height:40px;
+  line-height:40px;
+  font-size: 16px;
+}
+
+/* 演讲详情页中的图片 */
+.con_talk_img {
+  width:auto;
+  margin:15px 15px;
+}
+
+/* 播放次数文字*/
+.cdt_font { color:#003DFF; }
+

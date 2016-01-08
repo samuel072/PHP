@@ -1,0 +1,85 @@
+*{ margin:0; padding:0; }
+.pager {
+  width:65%;
+  float:right;
+  margin:10px 5%;
+  display:block;
+  height:30px;
+  line-height:30px;
+}
+
+.pager .pg_cur {
+  color:#cccfd4;
+  border-radius:0;
+  width:auto;
+  line-height:24px;
+  padding:0 2px;
+}
+
+.pager .pg_last {
+  width:auto;
+  background:url(/m/pages/images/icon_pg.png) no-repeat 100% 0;
+  padding-right:16px;
+  background-position:100% -39px;
+}
+
+.pager .pg_next {
+  width:auto;
+  background:url(/m/pages/images/icon_pg.png) no-repeat 100% 0;
+  background-position:100% 7px;
+  padding-right:16px;
+  padding-left:4px;
+}
+
+.pager a {
+  display:inline-block;
+  width:24px;
+  height:24px;
+  margin:0 2px;
+  text-align:center;
+  line-height:24px;
+}
+
+.pager strong {
+  border-radius:50%;
+  height:24px;
+  width:24px;
+  line-height:26px;
+  display:inline-block;
+  margin:0 4px;
+  text-align:center;
+  color:white;
+  background-color:#aed556;
+}
+
+.percent5 { width:5%; overflow:hidden; }
+.percent8 { width:8%; overflow:hidden; }
+.percent10 { width:10%; overflow:hidden; }
+.percent15 { width:15%; overflow:hidden; }
+.percent20 { width:20%; overflow:hidden; }
+.percent30 { width:30%; overflow:hidden; }
+.percent40 { width:40%; overflow:hidden; }
+.percent50 { width:50%; overflow:hidden; }
+.percent55 { width:55%; overflow:hidden; }
+.percent60 { width:60%; overflow:hidden; }
+.percent70 { width:70%; overflow:hidden; }
+
+.header { text-align:center; }
+.act_list ul li:nth-last-child(1) { border-right:0; }
+
+.list_header { text-align:center; }
+
+.buttons { width:25%; float:left; margin:10px 5%; display:block; height:30px; }
+.buttons a {
+  display:block;
+  width:100px;
+  height:25px;
+  font-size:14px;
+  text-decoration:none;
+  border-radius:4px;
+  background: #eee;
+  text-align:center;
+  line-height:25px;
+}
+.buttons a:hover { color:#f00; font-weight:bold; }
+.button_hidden { display:none; }

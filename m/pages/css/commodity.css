@@ -1,0 +1,59 @@
+/******商品详情页面*******/
+.exchange {
+  margin-bottom:20px;
+}
+.detail_body_div { width:100%; background:#fff; }
+.detail_body_div .detail_title_commodity {
+  position:relative;
+  z-index:1000;
+  background-color:#000;
+  margin-top:-48px;
+  margin-left:0px;
+  width:100%;
+  height:46px;
+  opacity:0.6;
+}
+.detail_title_commodity .title {
+  color:#fff;
+  font-size:18px;
+  line-height:46px;
+  padding-left:4%;
+  overflow:hidden;
+  display:block;
+  float:left;
+}
+.detail_title_commodity .money {
+  float:right;
+  display:block;
+  padding-top:12px;
+  padding-right:5%;
+  width:64px;
+}
+.detail_title_commodity .money img {
+  float:left;
+}
+.detail_title_commodity .money span {
+  color:#FF4900;
+  font-size:18px;
+  padding-top:2px;
+  padding-left:4px;
+  float:right;
+}
+.detail_body_div .summary_div{width:94%;margin: 20px auto;}
+.summary_div p{padding-top:10px;overflow:hidden;}
+.summary_div .summary_p{overflow:hidden;}
+.summary_div .type{font-size: 16px;color: #9A9A9A;display:block;float:left;width: 30%;}
+.summary_div .summary{font-size: 16px;display:block;overflow:hidden;float:right;width: 70%;}
+.detail_body_div a {
+  text-align:center;
+  display:block;
+  height:50px;
+  background:#3cd4e9;
+  width:90%;
+  line-height:50px;
+  margin:10px auto;
+  border-radius:6px;
+  color:#fff;
+  font-size:16px;
+  letter-spacing:8px;
+}

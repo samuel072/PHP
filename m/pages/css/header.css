@@ -1,0 +1,24 @@
+﻿.header { height:44px; background-color:#eee; width:100%; opacity:0.96; }
+.header li { list-style-type:none; width:33%; float:left; height:100%; line-height:36px; font-size:20px; }
+.header li a { display:block; height:100%; }
+.ico01 { height:20px; padding:12px 0 0 6%; }
+.header .h_title_type { text-align:center; }
+.header .h_title_type img { height:36px; padding-top:4px; }
+.header .h_title_type p { height:36px; padding-top:4px; font-size:20px; }
+.header .h_left_font a { font-size:20px; line-height:40px; float:left; color:#666; padding-left:5%; }
+.header .h_right a { font-size:20px; float:right; color:#666; }
+.header .h_right_font a { font-size: 20px;line-height: 40px;float: right;color:#4CACFF;padding-right:5%; }
+.header .h_right img { width:36px; padding:4px 4px; }
+
+/********登录头部*********/
+.account_header { background-color:transparent; }
+.account_header_font p { color:white; }
+.header .h_title_right_text { float:right; }
+.header .h_title_right_text a {
+  height:32px;
+  text-align:right;
+  font-size:18px;
+  padding-top:4px;
+  margin-right:16px;
+  color:white;
+}

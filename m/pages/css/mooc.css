@@ -1,0 +1,61 @@
+﻿.body_div_mooc{width:100%;background:#ccc;}
+
+.bg_white_mooc {
+  width:94%;
+  background:#fff;
+  margin:0 auto;
+  padding-top:10px;
+  border-top:10px solid #ccc;
+  position:relative;
+}
+
+.body_div_mooc:last-child{border-bottom:10px solid #ccc;}
+
+.content_div_mooc {
+  width:94%;
+  margin:0px auto;
+}
+
+.con_img_mooc { border-radius:3px; width:100%; margin-bottom:8px; }
+
+.player_mooc {
+  position:absolute;
+  top:20%;
+  left:40%;
+  height:80px;
+  width:80px;
+  border:0px none;
+}
+
+.con_title_mooc {
+  position: relative;
+  z-index: 1000;
+  background-color: #000;
+  margin-top: -54px;
+  margin-left: 0px;
+  width: 100%;
+  height: 46px;
+  opacity: 0.6;
+  border-radius: 0 0 4px 4px;
+}
+
+.con_title_summ_mooc {
+  color:#fff;
+  font-size:16px;
+  line-height:46px;
+  padding-left:2%;
+  padding-right:2%;
+  overflow:hidden;
+  text-align:center;
+}
+
+.title_mooc {
+  background-size: 33%;
+  font-size: 16px;
+  border-left: 4px solid #4CADFE;
+  padding-left: 6px;
+  margin-top: 15px;
+  line-height: 1.1;
+}
+
+.summary_mooc { padding:9px 0px; line-height:1.4; font-size:16px; font-family:微软雅黑; }

@@ -1,0 +1,16 @@
+.talk_image {
+	width: 300px;
+	height: 200px;
+	font-size: 10px;
+	margin: 10px auto;
+	display: block;
+}
+
+.activity_image {
+	width: 300px;
+	height: 200px;
+	font-size: 10px;
+	margin: 10px auto;
+	display: block;
+}
+.sub_activity_body input {text-align:center; }

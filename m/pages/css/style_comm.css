@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+html{height:100%;}
+body{height:100%;margin:0px;padding:0px;font-family:"微软雅黑",Arial,Helvetica,sans-serif;background:#fff;}
+input,textarea,select{font-family:"微软雅黑",Arial,Helvetica,sans-serif;}
+ul,li,span,header,section,p,input,form,img,textarea,h1,h2,h3,h4,h5,h6{list-style:none;margin:0px;padding:0px;border:0px;}
+a{text-decoration:none;}
+select{color:#666;}
+option{width:100%;}
+.clear{clear:both;}
+
+.head{width:100%;background:#ccc;}
+.head span{margin:0 auto;display:block;}
+.head h4{width:100%;text-align:center;color:#315789;}
+.layer_return{position:absolute;}
+.layer_return a{display:block;}
+.layer_out{position:absolute;}
+.layer_out a{display:block;}
+
+.video{width:100%;}
+.videocase{background:#666;}
+.videocase img {width:100%;}
+.layer_videoinfo{background:#fff;color:#000;position:absolute;text-align:center;}
+
+h1{width:100%;color:#fff;font-weight:normal;}
+ul{width:100%;}
+ul.hottoday{padding-bottom:0px;}
+ul li{width:45%;float:left; margin-bottom:10px;}
+ul li h3{width:100%;background:#ebebeb;font-weight:normal;text-align:center;}
+ul li .toolsbar{width:100%;background:#ebebeb;border-bottom:1px solid #8e8b8b;}
+ul li .toolsbar span{display:block;color:#999;}
+ul li .toolsbar span.onfocus{float:left;}
+ul li .toolsbar span.loveit{float:right;}
+ul li .imgcase{background:#ccc;}
+.imgcase .layer_imgcase{position:absolute;background:#fff;}
+.imgcase .layer_imgcase span{padding-right:10px;float:right;}
+h2{width:100%;color:#fff;font-weight:normal;}
+h2 span{display:block;}
+h2 span.title{float:left;}
+h2 span.carvet{float:left;}
+h2 span.more{float:right;}
+
+.layer_nav{width:100%;background:#ccc;position:fixed;bottom:0px;text-align:center;z-index:20000;}
+.layer_nav a{color:#000;}
+.layer_nav a:hover{color:#333;}
+
+.userinfo{width:100%;background:#fff;/*border-bottom:1px solid #ccc;*/}
+.userinfo span{display:block;}
+.userinfo span.user{float:left;}
+.userinfo span.user img{float:left;}
+.userinfo span.user .infocase{float:left;}
+.userinfo span.user h4{width:100%;font-weight:normal;float:left;}
+.userinfo span.user h4 div{float:left;}
+.userinfo span.user h5{width:100%;font-weight:normal;float:left;}
+
+.userinfo span.focus{float:right;}
+.userinfo span.time{float:right;color:#999;}
+
+.userlist{width:96%;background:#ebebeb;border-bottom:1px solid #ccc; margin:0 auto;}
+
+.talklist{width:96%; background:#fff; border-bottom:1px solid #ccc; margin:0 auto;}
+
+.talkinfo_bar{width:100%;background:#ebebeb;border-bottom:1px solid #ccc;}
+.talkinfo_bar span{margin:0 auto;cursor:pointer;}
+.talkinfo{width:100%;border-bottom:1px solid #ccc;}
+.messagetext{width:100%;border-bottom:1px solid #ccc;color:#315789;}
+
+.layer_action{width:100%;background:#e6e6e6;position:fixed;z-index:20002;}
+
+.textinput{width:100%;background:#ebebeb;border-bottom:1px solid #ccc;}
+.textinput span{display:block;float:left;}
+.textinput span.textcase{width:85%;}
+.textinput span.textbutton{width:10%;}
+

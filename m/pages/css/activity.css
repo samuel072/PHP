@@ -1,0 +1,123 @@
+﻿.body_div_activity{width:100%;background: #ccc;}
+.tag_div_activity{width:100%;background:#ccc;overflow:hidden; margin-top:6px; }
+.tag_div_activity .tag_ul_activity{width:94%;margin:0px auto; }
+ul .tag_type { width:20%; margin:auto; float:left; }
+ul .li1 a { background:#FF695E; }
+ul .li2 a { background:#61A8EA; }
+ul .li3 a { background:#60D457; }
+ul .li4 a { background:#3CD4E9; }
+ul .li5 a { background:#D9C475; }
+
+ul .tag_type a {
+  font-size:18px;
+  color:#fff;
+  text-align:center;
+  line-height:50px;
+  display:block;
+  width:50px;
+  border-radius:50%;
+  margin: 0 auto;
+}
+
+.content_white_activity{width:94%;background:#fff;margin:0 auto;padding-top:15px;border-top:10px solid #ccc;
+			border-left: 10px solid #ccc;border-right: 10px solid #ccc;padding-bottom: 8px}
+.body_div_activity:last-child{border-bottom:10px solid #ccc;}
+.content_div_activity{width:94%;margin:0px auto;}
+
+.con_img_activity {
+  border-radius:4px;
+  width:100%;
+  margin-bottom:8px;
+}
+
+.con_title_activity {
+  position:relative;
+  z-index:1000;
+  background-color:#000;
+  margin-top:-54px;
+  margin-left: 0px;
+  width:100%;
+  height:46px;
+  opacity:0.6;
+  border-radius: 0 0 4px 4px;
+}
+.con_content { margin-left:2%; padding-bottom:2%; }
+.con_title_summ_activity{color:#fff;font-size:18px;line-height: 46px;padding-left: 2%;padding-right: 2%;overflow: hidden;text-align:center;}
+
+.con_title_type_activity {
+  background-size:33%;
+  font-size:16px;
+  /*border-left:4px solid #4CADFE;*/ 
+  border-left:4px solid #3cd4e9;
+  padding-left:6px;
+  margin-top: 8px;
+}
+
+.con_summary_activity {
+  padding:6px 8px 0px 8px;
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: 微软雅黑;
+}
+
+.con_follow_from { margin-bottom:3%; }
+
+.con_activity_activity {
+  text-align: center;
+  display: block;
+  height: 30px;
+  /*background: #4CADFE;*/
+  background: #3cd4e9;
+  width: 40%;
+  line-height: 30px;
+  margin: 10px auto;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+}
+				
+/**********活动详情页***********/
+.detail_body_div{width:100%}
+.detail_body_div .detail_body_img{width:100%;}
+.con_summary_activity .con_summary_activity_a{line-height: 1.6;font-family:微软雅黑;font-size: 14px;color: #666;}
+.detail_body_div .operate_article_div{width: 100%;background: #fff;overflow: hidden;margin-bottom:15px;}
+.detail_body_div .operate_article{width:94%;margin:16px auto;}
+.detail_body_div .operate_article li{float:left;width: 25%;}
+.detail_body_div .operate_article li img{width:50%; display:block; margin:0 auto;}
+
+/*****发布活动页面*****/
+.sub_activity_body{width:100%;background:#fff;}
+.sub_activity_body .body_type_subactivity{width: 70%;margin:0 auto;overflow:hidden;}
+.sub_activity_body .body_type_recent_talk{display: block;height: 40px;border: 2px solid #356091;width: 48%;line-height: 40px;margin: 0px auto;
+						border-radius: 6px 0 0 6px;color: #999;font-size: 16px;float:left;text-align: center;margin-top: 10px}
+.sub_activity_body .body_type_recent_activtity{display: block;height: 40px;border: 2px solid #356091;width: 48%;line-height: 40px;margin: 0px auto;
+							border-radius: 0 6px 6px 0;color: #999;font-size: 16px;float:left;text-align: center;margin-top: 10px}
+.sub_activity_body  #on{background:#356091;color:#fff;}
+.sub_activity_body .info_div_talk{width:90%;margin:10px auto;}
+.sub_activity_body .info_div_activity{width:90%;margin:10px auto;}
+::-webkit-input-placeholder { color:#323232;text-align:center}
+
+.sub_activity_body input {
+  width:100%;
+  border-radius:4px;
+  height:50px;
+  margin:10px auto;
+  background:#eee;
+  border:none;
+  font-size:18px;
+  outline:none;
+  -webkit-appearance:none;
+  padding:0 10px;
+}
+
+.sub_activity_body .submit{background: #eee;width: 100%;display: block;height: 50px;border-radius: 4px;text-align:center;line-height: 50px;letter-spacing: 12px;font-size: 18px;color: #FF8805;;margin-top: 24px;}
+.sub_activity_body .tishi{display: -webkit-box;text-align: -webkit-center;background: #3cd4e9;width: 90%;border-radius: 5px;color: #fff;font-size: 16px;display:block;margin:10px auto;text-align:center;}
+
+.sub_activity_body .txt { height:50px; width:100%; margin:0 0; } 
+.sub_activity_body .file { position:absolute; top:0; left:0; height:50px; opacity:0; width:100%; margin:0 0; padding:0; } 
+.sub_activity_body .file-box { position:relative; width:100%; background:#eee; height:50px; margin:10px 0; border-radius:3px; }
+
+.sub_activity_body .talk_image {
+  width:100%;
+  height:auto;
+}

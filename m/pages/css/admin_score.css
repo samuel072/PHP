@@ -1,0 +1,36 @@
+/* 活动列表 */
+.rule_list { width:auto; display:block; padding:20px; background:#eee; height:320px}
+.rule_list .header { text-align:center; }
+.rule_list ul {
+  list-style:none;
+  padding:0 20px;
+  width:auto;
+  display:block;
+  border-bottom:1px solid white;
+  height:30px;
+}
+.rule_list ul li {
+  text-align:left;
+  line-height:30px;
+  float:left;
+  height:30px;
+  border-right:1px solid white;
+  padding:0 4px;
+}
+
+/* 编辑规则 */
+*{ margin:0; padding:0; font-size:14px; color:#666; }
+.rule { display:block; width:auto; padding:20px; }
+.rule ul { list-style:none; }
+.rule ul .field_comment { width:30%; display:block; text-align:right; float:left; }
+.rule ul .field_value { width:70%; display:block; text-align:left; float:right; height:100%; }
+.rule ul .fv_tag {width:10%; float:left;}
+.rule ul li { margin-bottom:8px; text-align:center; height:30px; line-height:30px; }
+.txt_in { height:25px; width:400px; border-radius:4px; border:1px solid #eee; padding:0 3px; }
+.rule .act_txt_area { height:100px; margin-bottom:10px;}
+.rule .image { height:80px; }
+.rule .act_txt_area textarea { width:90%; height:60px; }
+.rule .intro_li{height:60px;}
+.field_value .fv_la_in {float:right; width:60%;}
+
+.rule .btn { display:block; margin:10px auto; width:200px; height:40px; font-size:20px; cursor:pointer; }

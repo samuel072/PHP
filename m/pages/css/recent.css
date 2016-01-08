@@ -1,0 +1,61 @@
+.body_recent{background: #ccc;}
+.body_div_recent_talk{}
+.body_div_recent_talk:last-child{border-bottom:10px solid #ccc;}
+.body_div_activity:last-child{border-bottom:10px solid #ccc;}
+.body_type_recent{background:#ccc;width: 70%;margin:0 auto;overflow:hidden;}
+
+.body_type_recent_talk {
+  display: block;
+  height: 40px;
+  border: 2px solid #356091;
+  width: 48%;
+  line-height: 40px;
+  margin: 0px auto;
+  border-radius: 4px 0 0 4px;
+  color: #999;
+  font-size: 20px;
+  float:left;
+  text-align: center;
+  margin-top: 10px
+}
+
+.body_type_recent_activtity {
+  display: block;
+  height: 40px;
+  border: 2px solid #356091;
+  width: 48%;
+  line-height: 40px;
+  margin: 0px auto;
+  border-radius: 0 4px 4px 0;
+  color: #999;
+  font-size: 20px;
+  float:left;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.body_type_recent #on{background:#356091;color:#fff;}
+
+/*************预告演讲详情页****************/
+.header .h_share{font-weight: 700;line-height: 40px;}
+.header .h_share a{font-size: 20px;float: right;padding-right: 12px;color:#666;}
+.recent_detail_body{width:100%;}
+.recent_detail_body .recent_detail_body_img{width:100%;}
+.recent_detail_body .content_div{width:94%;margin:20px auto;}
+.content_div .label_type{font-size: 16px;padding-bottom: 6px;font-weight: bold;margin-left: 6px;}
+.content_div .con_summary_recent{padding-bottom:20px;font-size: 14px}
+.content_div .con_title_type_recent{background-size: 33%;font-size: 16px;border-left: 4px solid #4CADFE;margin-left: 8px;padding-left: 6px;margin-top: 8px;}
+.content_div .con_summary_recent{padding: 6px 6px;line-height: 1.6;font-size: 14px}
+.recent_detail_body .con_recent_activity{text-align: center;display: block;height: 40px;background: #4CADFE;width: 80%;line-height: 40px;
+											margin: 10px auto;border-radius: 6px;color: #fff;font-size: 16px;}
+
+/***************我收藏的********************/
+.body_type_favorite{background:#ccc;width: 100%;margin-left: 20%;}
+.body_type_favorite .body_type_recent_talk{display: block;height: 40px;border: 2px solid #356091;width: 20%;line-height: 40px;margin: 0px auto;
+			border-radius: 6px 0 0 6px;color: #999;font-size: 16px;float:left;text-align: center;margin-top: 10px}
+.body_type_favorite .body_type_recent_activtity{display: block;height: 40px;border: 2px solid #356091;width: 20%;line-height: 40px;margin: 0px auto;
+				border-radius: 0 0 0 0;color: #999;font-size: 16px;float:left;text-align: center;margin-top: 10px}
+.body_type_favorite .body_type_recent_mooc{display: block;height: 40px;border: 2px solid #356091;width: 20%;line-height: 40px;margin: 0px auto;
+				border-radius: 0 6px 6px 0;color: #999;font-size: 16px;float:left;text-align: center;margin-top: 10px}
+.body_type_favorite #on{background:#356091;color:#fff;}
+.body_recent .body_div_mooc{margin-top:58px;}

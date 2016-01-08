@@ -1,0 +1,25 @@
+.loading-indicator{
+<!-- lang: css -->
+    height:80px;
+<!-- lang: css -->
+    width:80px;
+<!-- lang: css -->
+    background:url('/pages/images/load.gif');
+<!-- lang: css -->
+    background-repeat: no-repeat;
+<!-- lang: css -->
+    background-position:center center;
+<!-- lang: css -->
+}
+<!-- lang: css -->
+
+<!-- lang: css -->
+.loading-indicator-overlay{
+<!-- lang: css -->
+    background-color:#FFFFFF;
+<!-- lang: css -->
+    opacity:0.6;
+<!-- lang: css -->
+    filter:alpha(opacity = 60);
+<!-- lang: css -->
+}
