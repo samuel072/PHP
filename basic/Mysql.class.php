@@ -15,7 +15,7 @@ class Mysql{
 		$this->username = $username;
 		$this->password = $password;
 		$this->dbname = $dbname;
-		// echo $this->host." ,". $this->password." ,". $this->password;
+		// echo $this->host." ,". $this->password." ,". $thisnavl-v7nn-ejxq-fqm4->password;
 		// $this->conn = mysql_connect($this->host, $this->password, $this->password, true);
 		$this->conn = mysql_pconnect($this->host, $this->password, $this->password, true);
 

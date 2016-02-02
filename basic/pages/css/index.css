@@ -1,0 +1,77 @@
+.container {
+    width: 100%;
+}
+.container .head {
+    background-color: #6D6D6D;
+    height: 30px;
+    line-height:30px;
+}
+.container .head a{
+    float: right;
+    margin-right: 2%;
+    color: #F0F0F0;
+}
+.container .head a:hover{
+    color: #000;
+    font-size:14px;
+}
+
+
+.container .nav{
+    background-color: #DCDCDC;
+    height: 60px;
+}
+.container .nav li {
+    float: left;
+    width: 25%;
+    height:60px;
+    background-color: #DCDCDC;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+.container .nav li a:hover{
+    color: green;
+    font-size:24px;
+}
+
+
+.content {
+    margin: 2% auto;
+    width: 96%;
+    background-color: #f5f5f5;
+    height: 600px;
+}
+.content ul li{
+    float: left;
+    text-align: center;
+}
+.content .con_head li{
+    width: 100%;
+}
+.content .con_title li {
+    border-right: 1px solid #000;
+    height: 45px;
+    line-height: 45px;
+}
+.content .con_content {
+    /*padding-top:8%;*/
+}
+.content .con_content li{
+    border: 1px solid #000;
+    border-left:none;
+    border-bottom: none;
+    height:45px;
+    line-height:45px;
+}
+.content .con_content img{
+    width: 45px;
+    height: 45px;
+}
+.content .con_content .del_right_border {
+    border-right: none;
+}
+
+.content .con_title .del_right_border {
+    border-right: none;
+}

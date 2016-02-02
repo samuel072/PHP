@@ -1,6 +1,6 @@
 <?php
 	header("Content-type: text/html; charset=utf-8");
-	date_default_timezone_set('Asia/Shanghai');
+	date_default_timezone_set('PRC');
 	function zeroPath($path) {
 		return dirname(__FILE__).'/'.$path;
 	}
